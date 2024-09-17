@@ -1,0 +1,697 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+      
+      QoD
+    
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Dance 4 Health Project" />
+  <meta name="author"
+        content="Mosa" />
+  <link rel="icon" href="/static/images/favicons/qod.ico" />
+  
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+          integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+<!-- Your stuff: Third-party CSS libraries go here -->
+<!-- This file stores project-specific CSS -->
+
+  
+  <link href="/static/css/project.css" rel="stylesheet" />
+
+
+
+<!-- Le javascript
+    ================================================== -->
+
+
+
+
+<!-- Bootstrap JS -->
+<script defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+        integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<!-- Your stuff: Third-party javascript libraries go here -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- place project specific Javascript in this file -->
+
+  
+  <script defer src="/static/js/project.js"></script>
+
+
+
+</head>
+<body class="" style="background-color: white;">
+  
+  <div class="mb-1 container-fluid" style="background-color: white;">
+    <nav class="navbar navbar-expand-md navbar-light bg-light " style="background-color: white;">
+      <div class="container-fluid" style="height:80px; background-color: white;">
+        <button class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand"  href="/courses/">
+         <!-- <img src="../../static/images/QoD.png" class="nav-link" style="width:100px; padding-right: 20px;">-->
+        </a>
+        <div class="col-1"></div>
+        <div class="col-1" style="padding-top:30px"> <a class="navbar-brand"  href="/courses/">
+          <img src="QoD.png" class="nav-link" style="width:100px; padding-right: 20px;">
+         </a></div>
+        <div class="col">
+        <div class="collapse navbar-collapse justify-content-left" style="background-color: white;" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!--
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/courses/">Agenda</a>
+            </li>  
+            
+            <li class="nav-item"></li>
+              <img src="../../static/images/QoD.png" class="nav-link" style="width:100px; padding-right: 20px; ">
+            </li>   -->   
+            <li class="nav-item">
+              <a class="nav-link" href="/courses/search/">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/courses/companies/">Organisateurs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/courses/teachers/">Professeurs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Transport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Témoignages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/courses/joinus/">Rejoindre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Français (BE)
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">Nederlands</a>
+                <a class="dropdown-item" href="#">English (US)</a>
+                <a class="dropdown-item" href="#">Deutsch</a>
+              </div>
+            </li>
+            
+            
+              
+                <li class="nav-item">
+                  
+                  <a id="sign-up-link" class="nav-link" href="/accounts/signup/">Sign Up</a>
+                </li>
+              
+              <li class="nav-item">
+                
+                <a id="log-in-link" class="nav-link" href="/accounts/login/">Sign In</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    
+    
+
+<div class="container">
+  <div class="container-fluid" style="background-color: #CBBB3C; height:120px;">
+  </div>
+  <div class="row">
+    <div class="container-fluid" style="height:20px;">
+    </div>
+    <div class="col-2">
+      <h3> Filtres</h3>
+      <hr>
+      <p>Style</p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" checked id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Danse bien-être
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" checked id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Danse assise
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox"  id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Danse et Parkinson
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" checked id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Danse à tout âge
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Danse Swing
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Danse de salon
+        </label>
+      </div>
+      
+      <hr>
+      <p>Horaire</p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          En matinée
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          En journée
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          En soirée
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          En semaine
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Le week-end
+        </label>
+      </div>
+      <hr>
+      <p>Localisation</p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" checked id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Belgique
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          France
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Espagne
+        </label>
+      </div>
+    </div>
+    <div class="col">
+      
+<div class="container" style="height:50px;">
+  <!--
+    <h1>Trouver un cours</h1>
+    <form method="get">
+        <div class="mb-3">
+        <input type="text" name="query" class="form-control" placeholder="parkinson,Mosa,..." required id="id_query">
+    </div>
+        <button type="submit" class="btn btn-primary" value="Search">Trouver</button>
+    </form>
+    -->
+</div>
+<div class="container p-2">
+    <div class="row row-cols-md-4 g-4">
+    
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_assise_1.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse assise</h5>
+          <p> 16 Septembre 2024 10:30 </p>
+          <!--<p class="card-text"><p>danse assise</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/26/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_bien-etre_1.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse bien-être</h5>
+          <p> 17 Septembre 2024 9:00 </p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/28/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_parkinson_2.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse et Parkinson</h5>
+          <p> 18 Septembre 2024 10:30</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-parkinson/">danse et parkinson
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/33/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_intergenerationnelle_1.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse à tout âge</h5>
+          <p> 18 Septembre 2024 18:00</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/30/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_swing_1.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse swing</h5>
+          <p> 18 Septembre 2024 19:00</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/35/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_salon_1_YhoSw0O.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse salon</h5>
+          <p> 19 Septembre 2024 19:00</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/37/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_assise_2.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse assise</h5>
+          <p> 20 Septembre 2024 14:00</p>
+          <!--<p class="card-text"><p>danse assise</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/27/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_bien-etre_2.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse bien-être</h5>
+          <p> 21 Septembre 2024 10:30 </p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/29/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_parkinson_1.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse et Parkinson</h5>
+          <p> 24 Septembre 2024 10:30 </p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-parkinson/">danse et parkinson
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/32/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_intergenerationnelle_2.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse à tout âge</h5>
+          <p> 24 Septembre 2024 18:00</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/31/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/Cours_danse_swing_2.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse swing</h5>
+          <p> 25 Septembre 2024 19:00</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/36/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    <div class="col">
+    <div class="card">
+      <img 
+      
+      src="./media/10.Cours_danse_salon_2.png"
+      
+      class="d-block mx-lg-auto img-fluid rounded-top" alt="Quand on danse" width="700" height="500" loading="lazy">
+        <div class="card-body">
+          <h5 class="card-title">Danse salon</h5>
+          <p> 26 Septembre 2024 18:00</p>
+          <!--<p class="card-text"><p>danse</p>
+          </p>-->
+          
+          <p>
+          <p class="tags">
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-aines/">danse et aines
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-bien-etre/">danse bien etre
+            </a></span>
+          
+          <span class="badge rounded-pill text-bg-light">
+            <a style="color: #CBBB3C;" href="/courses/tag/danse-et-inclusion/">danse et inclusion
+            </a></span>
+          
+          </p>
+          <a type="button" class="btn btn-sm btn-outline-dark" style="background-color: #CBBB3C; border-color: #CBBB3C;" href="/courses/34/">En savoir plus</a>
+
+        </div>
+      </div>
+    </div>
+      
+    </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+  </div>
+  
+  <!-- /container -->
+  
+</body>
+</html>
